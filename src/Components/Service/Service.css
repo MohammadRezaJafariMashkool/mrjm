@@ -1,0 +1,64 @@
+.service-container {    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 16px; /* Adds space between the grid items */
+    padding: 16px; /* Optional: Adds padding inside the container */
+}
+
+.service-small-card{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    background: white;
+    border-radius: 3px;
+    transition: transform 0.3s ease, color 0.3s ease, font-size 0.3s ease; /* Adds animation for transform, color, and font-size */
+}
+.service-small-card:hover{
+    transform: scale(1.05); /* Scales the element by 5% */
+    color: darkred;
+    font-size: 18px;
+    font-weight: 600;
+}
+.service-small-card img{
+    width: 100%;    
+    border-radius: 3px 3px 0 0;
+}
+.service-small-card p{
+    margin: 15px;
+}
+@media (max-width:545px){ 
+    .service-container {    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+        gap: 1px; /* Adds space between the grid items */
+        padding: 1px; /* Optional: Adds padding inside the container */
+    }
+    
+    .service-small-card{
+        width: 200px;
+        height: 250px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        background: white;
+        border-radius: 3px;
+        transition: none /* Adds animation for transform, color, and font-size */
+    }
+    .service-small-card:hover{
+        transform: none; /* Scales the element by 5% */
+        color: darkred;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .service-small-card img{
+        width: 100%;    
+        border-radius: 3px 3px 0 0;
+    }
+    .service-small-card p{
+        margin: 15px;
+    }
+}
