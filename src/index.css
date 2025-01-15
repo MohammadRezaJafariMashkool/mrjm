@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Light";
-  src: local("arial"),
-    url("./Assets/Fonts/arial.ttf") format("truetype");
+  src: local("BELL"),
+    url("./Assets/Fonts/BELL.TTF") format("truetype");
 }
 *{
   margin: 0;
