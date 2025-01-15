@@ -25,4 +25,19 @@
 .syber-container div{ color: antiquewhite;}
 
 @media (max-width:545px){ 
+    
+
+.about-us-container{height: 95%; background-color: #baa46a; flex-direction: column;}
+.about-container img{height: 400px;}
+
+.loung-time-container{height: 95%; background-color: #ccc6b6; flex-direction: column;}
+.loung-time-container img{height: 400px;}
+
+.ai-container{height: 95%; background-color: #020202; flex-direction: column;}
+.ai-container img{height: 400px;}
+.ai-container div{ color: bisque;}
+
+.syber-container{height: 95%; background-color: #2a241d; flex-direction: column;}
+.syber-container img{height: 400px;}
+.syber-container div{ color: antiquewhite;}
 }

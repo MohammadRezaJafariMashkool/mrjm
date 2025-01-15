@@ -11,7 +11,7 @@ export const about = ( {searchText, setSearchText, setSelectedService, selectedS
       <div className='about-us-container flxrow' id='about-us'>
           <img src={abtUsPic} alt="" />
           <div className='text-container'>
-            <h1>About Us:</h1>
+            <h1>Who We Are:</h1>
             <p className='about-p'>
               Welcome to our world of innovative software solutions. At MRJM, 
               we specialize in developing high-quality Windows software, mobile applications, 
@@ -31,7 +31,7 @@ export const about = ( {searchText, setSearchText, setSelectedService, selectedS
       <div className='loung-time-container flxrow rtl' id='long-time-support'>
           <img src={lngSotPic} alt="" />
           <div className='ltr text-container'>
-            <h1>Long Time Support:</h1>
+            <h1>Long Term Support:</h1>
             <p className='about-p'>
               We believe in building relationships that last. 
               Our commitment to long-term support ensures that we’re always here to help you 

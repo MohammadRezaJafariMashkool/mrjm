@@ -12,11 +12,11 @@ export const Header = () => {
     <div className='header-container'>
       <div className="header-logo-container"><img className='logo-icon' src={logoIcn} alt="" /></div>
       <div className="header-menu-items-container">
-        <img src={aiIcn} alt="" /><a href='#ai'>AI</a>
-        <img src={SybIcn} alt="" /><a href='#syber-security'>Syber Security</a>
-        <img src={PdtIcn} alt="" /><a href='#'>Products</a>
-        <img src={CusIcn} alt="" /><a href='#'>Customers</a>
-        <img src={CntIcn} alt="" /><a href='#'>Cantact Us</a>
+        <a href='#ai'><img className='menu-item-img' src={aiIcn} alt="" /><p className='menu-item-p'>AI</p></a>
+        <a href='#syber-security'><img className='menu-item-img' src={SybIcn} alt="" /><p className='menu-item-p'>Syber Security</p></a>
+        <a href='#'><img className='menu-item-img' src={PdtIcn} alt="" /><p className='menu-item-p'>Products</p></a>
+        <a href='#'><img className='menu-item-img' src={CusIcn} alt="" /><p className='menu-item-p'>Customers</p></a>
+        <a href='#'><img className='menu-item-img' src={CntIcn} alt="" /><p className='menu-item-p'>Cantact Us</p></a>
       </div>
     </div>
   )
