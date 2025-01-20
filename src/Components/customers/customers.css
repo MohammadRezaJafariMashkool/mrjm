@@ -1,0 +1,24 @@
+.customers-container{ background-color: #bfc9b5;height: 100vh; width: 100%; align-items: center; justify-content: center;}
+.customers-container-header{ font-size: 24px; font-weight: 800 ;}
+.customers-list-container{height: 85%; width: 100%;  align-items: center; justify-content: center; gap: 50px; }
+.customer-item{height:  220px;align-items: center; justify-content: center; transition: transform 0.3s ease, color 0.3s ease, font-size 0.3s ease; cursor: pointer;}
+.customer-item:hover{ transform: scale(1.05);box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);}
+.customer-icon{height: 180px; width: 180px;}
+.customer-p{ font-size: 22px; font-weight: 600 ;}
+
+@media (max-width:545px){ 
+.customers-container{
+    height: 95vh; 
+    width: 100vw; 
+    flex-direction: column;
+    padding-top: 6vh;
+    gap: 50px;
+}
+.customers-list-container{
+    width: 88vw;
+    flex-direction: row;
+    padding-left: 50px;
+    height: 95vh; overflow: scroll; justify-content: flex-start;}
+.customer-item{}
+.customer-p{ text-align: center;}
+}

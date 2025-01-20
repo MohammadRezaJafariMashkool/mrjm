@@ -1,0 +1,17 @@
+.feutures-container{height: 100vh; width: 100%;}
+.feutures-img{height: 100%; width: 50vw;}
+.feutures-p-container{display: flex; flex-direction: column; padding: 60px; justify-content: center; margin: auto; gap: 10px;}
+.feutures-p{font-size: 16; font-weight: 600;}
+.bg-yellow{background-color: #baa46a;}
+.bg-bisque{color: bisque;}
+.font-bisque{color: bisque;}
+.bg-dark-brown{background-color: #020202;}
+.bg-black{background-color: #2a241d;}
+.bg-coffee{background-color: #ccc6b6;}
+.font-antiquewhite{color: antiquewhite;}
+
+@media (max-width:545px){ 
+.feutures-container{height: 95%; flex-direction: column;}
+.feutures-img{height: 45vh; width: 100vw;}
+.feutures-p-container{height: 45vh; padding: 20px;}
+}
