@@ -1,24 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.cae996df.css",
-    "main.js": "/static/js/main.e7075593.js",
+    "main.css": "/static/css/main.356e59c0.css",
+    "main.js": "/static/js/main.04c732dc.js",
     "static/media/Syber.png": "/static/media/Syber.623ce56920047473ede0.png",
     "static/media/AI.jpg": "/static/media/AI.b56376992ec081c8fea1.jpg",
     "static/media/Ltsc.png": "/static/media/Ltsc.023999fb7a593444d910.png",
+    "static/media/handy.png": "/static/media/handy.7b40352b32c701e0e713.png",
+    "static/media/est.png": "/static/media/est.22eb9a81a26d8325fd5c.png",
+    "static/media/NalsaMedic.png": "/static/media/NalsaMedic.f67fc309faa30c04dd61.png",
+    "static/media/Nalsa Accounting.png": "/static/media/Nalsa Accounting.3bd2f5fbc795297630be.png",
+    "static/media/BeRock.png": "/static/media/BeRock.60e93fa5a65b01739d73.png",
+    "static/media/Nalsa Real State.png": "/static/media/Nalsa Real State.2d8151a9669e329034be.png",
+    "static/media/Nalsa Amlak.png": "/static/media/Nalsa Amlak.cbfbe9438149c836de28.png",
     "static/media/About Us.jpg": "/static/media/About Us.bd0905e882d548eef2f6.jpg",
+    "static/media/ava.png": "/static/media/ava.4f2f4c712450a8ffe59c.png",
+    "static/media/torshizi.png": "/static/media/torshizi.e81b887fa39d6258245c.png",
     "static/media/BELL.TTF": "/static/media/BELL.c830d6f7513d78e40b5b.TTF",
     "static/media/sybersecurity-icon.png": "/static/media/sybersecurity-icon.23662533032057369f97.png",
+    "static/media/muni.png": "/static/media/muni.2f535e4ba07394a7d5af.png",
+    "static/media/Nalsa Municipality.png": "/static/media/Nalsa Municipality.73206b4400bcb0ee44bb.png",
+    "static/media/email.png": "/static/media/email.90db435f158d3e1e6b10.png",
     "static/media/customers-icon.png": "/static/media/customers-icon.256ab4184bf5ffea1d6f.png",
     "static/media/contactus-icon.png": "/static/media/contactus-icon.a5ccbeb8e17cb464c818.png",
     "static/media/products-icon.png": "/static/media/products-icon.44fbc914468db96ad56b.png",
+    "static/media/call.png": "/static/media/call.846d3f0149fbe82c33f6.png",
     "static/media/logo.png": "/static/media/logo.facd936cb5af160b875d.png",
+    "static/media/long.png": "/static/media/long.a4a1a994e3993e4707c8.png",
     "static/media/ai-icon.png": "/static/media/ai-icon.96e4abbb0a8aa88364a3.png",
+    "static/media/info.png": "/static/media/info.d8414526cc97f0f3a893.png",
     "index.html": "/index.html",
-    "main.cae996df.css.map": "/static/css/main.cae996df.css.map",
-    "main.e7075593.js.map": "/static/js/main.e7075593.js.map"
+    "main.356e59c0.css.map": "/static/css/main.356e59c0.css.map",
+    "main.04c732dc.js.map": "/static/js/main.04c732dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae996df.css",
-    "static/js/main.e7075593.js"
+    "static/css/main.356e59c0.css",
+    "static/js/main.04c732dc.js"
   ]
 }
